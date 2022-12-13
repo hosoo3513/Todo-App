@@ -16,6 +16,7 @@ import java.util.List;
 @RestController
 @Validated
 @RequestMapping("/")
+@CrossOrigin
 public class ToDoController {
     private final ToDoService toDoService;
     private final ToDoMapper mapper;
@@ -69,3 +70,4 @@ public class ToDoController {
     }
 
 }
+
